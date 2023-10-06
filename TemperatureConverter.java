@@ -6,12 +6,14 @@ public static void main(String[] args)
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("                 Temperature Conversion                    ");
+        System.out.println("___________________________________________________________");
         System.out.println("Enter a temperature value: ");
         double temperature = sc.nextDouble();//assigning temperature in variable temperature
 
         System.out.println("Enter the original unit of measurement: ");
         String originalUnit = sc.next();//assigning unit in variable originalUnit
-        
+
         double celsius=0;//declaring variable named as celsius of double datatype
         double fahrenheit=0;//declaring variable named as fahrenheit of double datatype
         double kelvin=0;//declaring variable named as kelvin of double datatype
