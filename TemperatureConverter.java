@@ -5,7 +5,6 @@ public static void main(String[] args)
     {//main method definition starts
 
         Scanner sc = new Scanner(System.in);
-
         System.out.println("                 Temperature Conversion                    ");
         System.out.println("___________________________________________________________");
         System.out.println("Enter a temperature value: ");
