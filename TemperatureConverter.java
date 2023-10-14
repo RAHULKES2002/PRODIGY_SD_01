@@ -4,7 +4,7 @@ public class TemperatureConverter
 public static void main(String[] args)
     {//main method definition starts
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);//object of scanner class created to take input from user
         System.out.println("                 Temperature Conversion                    ");
         System.out.println("___________________________________________________________");
         System.out.println("Enter a temperature value: ");
